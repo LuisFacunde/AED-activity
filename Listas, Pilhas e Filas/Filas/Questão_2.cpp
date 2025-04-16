@@ -25,7 +25,7 @@ No *inserirFinal(int valor, No *lista)
     if (!lista)
         return novoNo;
 
-    // Criação do temporário para armazenar o endereço da lista e
+    // Criação do temporário para armazenar o endereço do ultimo item da lisa e atribuir a ele o endereço do novo nó
     No *temp = lista;
     while (temp->prox != NULL)
         temp = temp->prox;
